@@ -1,8 +1,8 @@
-            // https://github.com/FoysalAhamedOvi/assignment.js                
+// https://github.com/FoysalAhamedOvi/assignment.js                
 
 
 
-//Problem 1 kilometerToMeter //
+// solution 1 kilometerToMeter 
 
 function kilometerToMeter (kilo){
     var meter = kilo * 1000;
@@ -10,7 +10,7 @@ function kilometerToMeter (kilo){
 }
 
 
-        // program 2 budgetCalculator
+ // Solution 2 budgetCalculator
 
 function budgetCalculator(watch, phone, laptop){
     var watchMoney = 50;
@@ -31,7 +31,7 @@ function budgetCalculator(watch, phone, laptop){
 
 
 
-                            //program 3 hotelCost//
+//Solution 3 hotelCost//
 
 function hotelCost (days){
     var money = 0;
@@ -52,7 +52,24 @@ function hotelCost (days){
     return money;
 }
 
-        //program 4 
+
+ // Solution 4 megaFriend
+
+var friends = ["Foysal", "Ahamed", "Ovi", "Taskinur", "Rahman", "Readoy"];
+function megaFriend(friends){
+    var max = friends[0];
+    for (var i = 0; i < friends.length; i++){
+        var element = friends[i];
+        if (element.length > max.length){
+            max = element;
+            
+        }
+    }
+    return max;
+    }
+
+    // I tried to solve program 4 last 4-5hours but I couldn't solve the program. When you sent me your feedback please give me the solution. 
+    
 
 
 
