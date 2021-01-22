@@ -1,4 +1,8 @@
-                //Problem 1 kilometerToMeter //
+            // https://github.com/FoysalAhamedOvi/assignment.js                
+
+
+
+//Problem 1 kilometerToMeter //
 
 function kilometerToMeter (kilo){
     var meter = kilo * 1000;
@@ -6,26 +10,24 @@ function kilometerToMeter (kilo){
 }
 
 
-                //Prgram 2 hotelBudget//
+        // program 2 budgetCalculator
 
 function budgetCalculator(watch, phone, laptop){
     var watchMoney = 50;
     var watchCost = watchMoney * watch
-    console.log (arguments[0]);
+    firstBuy = (arguments[0]);
     
     var phoneMoney = 100;
     var phoneCost = phoneMoney * phone;
-    console.log (arguments[1]);
+    secondBuy = (arguments[1]);
     
     var laptopMoney = 500;
     var laptopCost = laptopMoney * laptop;
-    console.log (arguments[2]);
+    thirdBuy = (arguments[2]);
     
-    var total = watchCost + phoneCost + laptopCost;
+    total = watchCost + phoneCost + laptopCost;
     return total;
 }
-
-
 
 
 
